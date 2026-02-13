@@ -1,0 +1,13 @@
+Time Series Forecast Report – Walmart Sales
+
+1. Converted Date column into datetime format.
+2. Aggregated weekly sales across all stores.
+3. Observed seasonality and holiday spikes.
+4. Split data into train and test using last 12 weeks.
+5. Applied Exponential Smoothing model.
+6. Generated 12-week forecast.
+7. Evaluated model using MAE and MAPE.
+
+Conclusion:
+The model captures general sales trend but may not fully capture holiday spikes.
+Forecast is suitable for short-term planning.
